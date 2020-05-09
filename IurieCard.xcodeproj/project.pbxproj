@@ -14,6 +14,7 @@
 		8A878ACB24670FF1004AFB82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A878ACA24670FF1004AFB82 /* Preview Assets.xcassets */; };
 		8A878ACE24670FF1004AFB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A878ACC24670FF1004AFB82 /* LaunchScreen.storyboard */; };
 		8A878AD7246716A0004AFB82 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A878AD6246716A0004AFB82 /* Pacifico-Regular.ttf */; };
+		8A878AD9246727CD004AFB82 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A878AD8246727CD004AFB82 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8A878ACD24670FF1004AFB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A878ACF24670FF1004AFB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A878AD6246716A0004AFB82 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		8A878AD8246727CD004AFB82 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8A878AC124670FF0004AFB82 /* AppDelegate.swift */,
 				8A878AC324670FF0004AFB82 /* SceneDelegate.swift */,
 				8A878AC524670FF0004AFB82 /* ContentView.swift */,
+				8A878AD8246727CD004AFB82 /* InfoView.swift */,
 				8A878AC724670FF1004AFB82 /* Assets.xcassets */,
 				8A878ACC24670FF1004AFB82 /* LaunchScreen.storyboard */,
 				8A878ACF24670FF1004AFB82 /* Info.plist */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A878AD9246727CD004AFB82 /* InfoView.swift in Sources */,
 				8A878AC224670FF0004AFB82 /* AppDelegate.swift in Sources */,
 				8A878AC424670FF0004AFB82 /* SceneDelegate.swift in Sources */,
 				8A878AC624670FF0004AFB82 /* ContentView.swift in Sources */,
