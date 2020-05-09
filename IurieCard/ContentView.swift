@@ -15,6 +15,13 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
                 Image("PhotoIurie")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 150
+                        , height: 150
+                )
+                    .clipShape(Circle())
+                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
                 Text("Iurie Guzun")
                     .font(Font.custom("Pacifico-Regular", size: 40))
                     .bold()
